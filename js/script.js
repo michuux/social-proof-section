@@ -10,7 +10,7 @@ ratings.forEach(element => {
     for(i = 1; i <= numberOfStars; i++){        
 
         let starImg = document.createElement('img');
-        starImg.src = '../images/icon-star.svg';
+        starImg.src = 'images/icon-star.svg';
         starImg.setAttribute('width','17px');
         starImg.setAttribute('height','16px');
         starImg.setAttribute('alt','');

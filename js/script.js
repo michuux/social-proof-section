@@ -11,8 +11,6 @@ ratings.forEach(element => {
 
         let starImg = document.createElement('img');
         starImg.src = 'images/icon-star.svg';
-        starImg.setAttribute('width','17px');
-        starImg.setAttribute('height','16px');
         starImg.setAttribute('alt','');
         starImg.setAttribute('aria-hidden','true');
         starsDiv.appendChild(starImg);
